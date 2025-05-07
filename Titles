@@ -1,0 +1,12 @@
+CREATE TABLE titles (
+    tconst VARCHAR(20) PRIMARY KEY,
+    titleType VARCHAR(50),
+    primaryTitle VARCHAR(255),
+    originalTitle VARCHAR(255),
+    isAdult TINYINT(1),
+    startYear SMALLINT,
+    endYear SMALLINT,
+    runtimeMinutes INT,
+    genres VARCHAR(255)
+);
+
