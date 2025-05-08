@@ -1,3 +1,5 @@
+-- Active: 1746602073145@@localhost@3306@imdbsportsmovies
+-- Active: 1746602073145@@localhost@3306@imdbsportsmovies
 
 -- 1. Top Rated Movies (Simplified - without ratings join)
 SELECT primary_title, start_year
@@ -27,3 +29,4 @@ LIMIT 10;
 SELECT *
 FROM ratings
 LIMIT 10;
+
